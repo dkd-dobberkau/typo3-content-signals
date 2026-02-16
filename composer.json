@@ -2,7 +2,7 @@
     "name": "dkd/content-signals",
     "type": "typo3-cms-extension",
     "description": "Adds Content-Signal meta tags to pages per contentsignals.org spec, configurable globally via TypoScript and per page via TCA fields.",
-    "license": "MIT",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "dkd Internet Service GmbH",

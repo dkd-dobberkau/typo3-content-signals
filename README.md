@@ -126,4 +126,4 @@ Beide verwenden das gleiche Signal-Format von [contentsignals.org](https://conte
 
 ## Lizenz
 
-[MIT](LICENSE)
+[GPL-2.0-or-later](LICENSE)
