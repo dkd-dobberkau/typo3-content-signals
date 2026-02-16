@@ -1,0 +1,26 @@
+{
+    "name": "dkd/content-signals",
+    "type": "typo3-cms-extension",
+    "description": "Adds Content-Signal meta tags to pages per contentsignals.org spec, configurable globally via TypoScript and per page via TCA fields.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dkd Internet Service GmbH",
+            "email": "info@dkd.de"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "typo3/cms-core": "^12.4 || ^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dkd\\DkdContentSignals\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "dkd_content_signals"
+        }
+    }
+}

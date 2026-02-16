@@ -1,0 +1,38 @@
+# Content Signals meta tag
+# Reads per-page TCA fields; falls back to TypoScript constants.
+# Output: <meta name="content-signal" content="ai-train=yes, search=yes, ai-input=yes">
+
+page.headerData.1700 = COA
+page.headerData.1700 {
+    # Opening tag
+    10 = TEXT
+    10.value = <meta name="content-signal" content="
+
+    # ai-train
+    20 = TEXT
+    20 {
+        field = tx_dkdcontentsignals_ai_train
+        ifEmpty.value = {$plugin.tx_dkdcontentsignals.settings.aiTrain}
+        noTrimWrap = |ai-train=||
+    }
+
+    # search
+    30 = TEXT
+    30 {
+        field = tx_dkdcontentsignals_search
+        ifEmpty.value = {$plugin.tx_dkdcontentsignals.settings.search}
+        noTrimWrap = |, search=||
+    }
+
+    # ai-input
+    40 = TEXT
+    40 {
+        field = tx_dkdcontentsignals_ai_input
+        ifEmpty.value = {$plugin.tx_dkdcontentsignals.settings.aiInput}
+        noTrimWrap = |, ai-input=||
+    }
+
+    # Closing tag
+    50 = TEXT
+    50.value = ">
+}

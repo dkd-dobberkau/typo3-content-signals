@@ -1,0 +1,8 @@
+# cat=plugin.tx_dkdcontentsignals/settings; type=options[yes,no]; label=AI Training: Allow AI models to train on this content
+plugin.tx_dkdcontentsignals.settings.aiTrain = yes
+
+# cat=plugin.tx_dkdcontentsignals/settings; type=options[yes,no]; label=Search: Allow search engine indexing
+plugin.tx_dkdcontentsignals.settings.search = yes
+
+# cat=plugin.tx_dkdcontentsignals/settings; type=options[yes,no]; label=AI Input: Allow AI agents to use this content as input
+plugin.tx_dkdcontentsignals.settings.aiInput = yes

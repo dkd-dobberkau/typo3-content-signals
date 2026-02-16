@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-02-16T00:00:00Z">
+        <header/>
+        <body>
+            <trans-unit id="palette.dkd_content_signals">
+                <source>Content Signals (contentsignals.org)</source>
+            </trans-unit>
+            <trans-unit id="pages.tx_dkdcontentsignals_ai_train">
+                <source>AI Training</source>
+            </trans-unit>
+            <trans-unit id="pages.tx_dkdcontentsignals_search">
+                <source>Search Indexing</source>
+            </trans-unit>
+            <trans-unit id="pages.tx_dkdcontentsignals_ai_input">
+                <source>AI Input</source>
+            </trans-unit>
+            <trans-unit id="signal.default">
+                <source>Default (from TypoScript)</source>
+            </trans-unit>
+            <trans-unit id="signal.yes">
+                <source>Yes</source>
+            </trans-unit>
+            <trans-unit id="signal.no">
+                <source>No</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
